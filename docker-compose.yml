@@ -6,7 +6,7 @@ volumes:
 
 services:
   mongodb:
-    image: mongo
+    image: mongo:4.4
     volumes:
       - mongodb-data:/data/db
     restart: unless-stopped
